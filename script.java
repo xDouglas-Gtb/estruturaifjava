@@ -23,6 +23,7 @@ public class script{
 }    
  */
 
+/*
 public class script{
     public static void main(String[] args) {
         int idade = 12;
@@ -34,6 +35,37 @@ public class script{
         }
    }
 }
- 
 
+ */
+
+/*
+public class script{
+public static void main(String[] args) {
+    int numero = 120;
+
+    if (numero > 0 ){
+        System.out.println("Numero positivo");
+    }else if(numero < 0 ){
+        System.out.println("numero negativo voce é preto");
+    }else{
+        System.out.println("Zero");
+    }
+}
+}
+
+ */
+
+public class script{
+    public static void main(String[] args) {
+            int idade = 18;
+
+            if (idade >= 18){
+                System.out.println("Pode dirigir Parabens");
+            }else if(idade < 18){
+                System.out.println("Nao podi dirigir , sinto muito ");
+            }else{
+                System.out.println("Esperar a idade necessaria");
+            }
+    }
+}
 
