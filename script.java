@@ -5,9 +5,11 @@ public class script{
     }
 }
  */
+
+/*
 public class script{
     public static void main(String args[]) {
-        int idade = 10;
+        int idade = 20;
         double salario = 1000;
         boolean isMaiorIdade = idade >= 18;
 
@@ -19,3 +21,19 @@ public class script{
         }
     }
 }    
+ */
+
+public class script{
+    public static void main(String[] args) {
+        int idade = 12;
+
+        if(idade >= 18){
+            System.out.println("Maior de Idade");
+        }else if (idade < 18){
+            System.out.println("Menor de Idade");
+        }
+   }
+}
+ 
+
+
