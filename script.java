@@ -73,7 +73,7 @@ public class script{
 */
 
 
-
+/*
 public class script{
     // utilizando switch e dados os valores de 1  a 7 , imprima se  é dia util ou final de semana 
     // Considernando 1 como domingo
@@ -97,4 +97,65 @@ public class script{
     }   
 }
 
+*/
+
+
+/*
+public class script{
+    public static void main(String[] args) {
+        
+        byte dia = 1 ;
+
+        switch (dia){
+            case 1 :
+            case 2 :
+            case 3 :
+                System.out.println("Inicio de semana");
+                break;
+            
+            case 4:
+            case 5:
+                System.out.println("Meio de semana");
+                break;
+
+            case 6 :
+            case 7 :
+                System.out.println("Fim de semana");
+                break;
+
+            default:
+                System.out.println("Opcao invalida");
+        }
+    }
+}
+*/
+
+/*
+public class script{
+    public static void main(String[] args) {
+
+        byte numero = 3;
+
+        switch (numero) {
+            case 1:
+            case 2:
+                System.out.println("Numero Baixo");
+                break;
+
+            case 3 :
+                System.out.println("Numero medio");
+                break;
+
+            case 4 :    
+            case 5 :
+                System.out.println("Numero alto ");
+                break;
+                
+            default:
+                System.out.println("Opçao invalida !");
+            
+        }
+    }
+}
+*/
 
