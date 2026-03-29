@@ -74,6 +74,7 @@ public class script{
 
 
 /*
+
 public class script{
     // utilizando switch e dados os valores de 1  a 7 , imprima se  é dia util ou final de semana 
     // Considernando 1 como domingo
@@ -158,4 +159,22 @@ public class script{
     }
 }
 */
+
+public  class script{
+    public static void main(String[] args) {
+        
+        byte dia = 10;
+
+        switch (dia){
+            case 1:
+            case 5:
+                System.out.println("Grupo A");
+                break;
+            
+            case 6:
+            case 10:
+                System.out.println("Grupo B");
+        }
+    }
+}
 
